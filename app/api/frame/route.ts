@@ -27,6 +27,9 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       ],
       image: `${NEXT_PUBLIC_URL}/one.jpeg`,
       post_url: `${NEXT_PUBLIC_URL}/api/frame`,
+      input: {
+        text: 'answer carefully'
+      }
     }),
   );
 }
