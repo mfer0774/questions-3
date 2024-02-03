@@ -25,7 +25,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
           label: `submit`,
         },
       ],
-      image: `${NEXT_PUBLIC_URL}/one.jpeg`,
+      image: `${NEXT_PUBLIC_URL}/five.jpeg`,
       post_url: `${NEXT_PUBLIC_URL}/api/frame`,
       input: {
         text: 'answer carefully'
