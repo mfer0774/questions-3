@@ -22,7 +22,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     getFrameHtmlResponse({
       buttons: [
         {
-          label: `Text: ${text}`,
+          label: `submit`,
         },
       ],
       image: `${NEXT_PUBLIC_URL}/one.jpeg`,
