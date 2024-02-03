@@ -6,7 +6,7 @@ const NEXT_PUBLIC_URL = 'https://questions-3.vercel.app/';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'generate',
+      label: 'ask me your questions',
     },
   ],
   image: `${NEXT_PUBLIC_URL}/start.jpeg`,
