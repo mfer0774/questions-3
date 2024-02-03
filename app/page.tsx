@@ -1,7 +1,7 @@
 import { getFrameMetadata } from '@coinbase/onchainkit';
 import type { Metadata } from 'next';
 
-const NEXT_PUBLIC_URL = 'https://frame-test-sepia.vercel.app/';
+const NEXT_PUBLIC_URL = 'https://questions-3.vercel.app/';
 
 const frameMetadata = getFrameMetadata({
   buttons: [
@@ -9,17 +9,17 @@ const frameMetadata = getFrameMetadata({
       label: 'generate',
     },
   ],
-  image: `${NEXT_PUBLIC_URL}/mfer-1.png`,
+  image: `${NEXT_PUBLIC_URL}/start.jpeg`,
   post_url: `${NEXT_PUBLIC_URL}/api/frame`
 });
 
 export const metadata: Metadata = {
-  title: 'mfers',
-  description: 'always has been',
+  title: 'questions-3',
+  description: 'answer me these questions three',
   openGraph: {
-    title: 'mfers',
-    description: 'always has been',
-    images: [`${NEXT_PUBLIC_URL}/mfer-1.png`],
+    title: 'questions-3',
+    description: 'answer me these questions three',
+    images: [`${NEXT_PUBLIC_URL}/start.jpeg`],
   },
   other: {
     ...frameMetadata,
